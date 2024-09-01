@@ -1,0 +1,84 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigserviceApplication<configservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.configservice.ConfigserviceApplication",
+            "projectName": "configservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-NotificationserviceApplication<notificationservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.notificationservice.NotificationserviceApplication",
+            "projectName": "notificationservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AccountserviceApplication<accountservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.accountservice.AccountserviceApplication",
+            "projectName": "accountservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StatisticserviceApplication<statisticservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.statisticservice.StatisticserviceApplication",
+            "projectName": "statisticservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoveryserviceApplication<discoveryservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.discoveryservice.DiscoveryserviceApplication",
+            "projectName": "discoveryservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayserviceApplication<gatewayservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.gatewayservice.GatewayserviceApplication",
+            "projectName": "gatewayservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MonitoradminApplication<monitoradmin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.monitoradmin.MonitoradminApplication",
+            "projectName": "monitoradmin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AuthserviceApplication<authservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.syshero.authservice.AuthserviceApplication",
+            "projectName": "authservice",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

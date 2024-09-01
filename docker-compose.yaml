@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  mysql1:
+    image: mysql:8.3.0
+    container_name: mysql1-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: springcloud
+    volumes:
+      - ./data/mysql1:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  mysql2:
+    image: mysql:8.3.0
+    container_name: mysql2-container
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: springcloudreport
+    volumes:
+      - ./data/mysql2:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
